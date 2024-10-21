@@ -1,51 +1,36 @@
 import { motion } from 'framer-motion'
-
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
+import Chat from './Chat' // Import the Chat component
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section
+      className={`relative w-full h-screen mx-auto bg-gradient-to-b from-gray-800 to-black`}
+    >
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          <div className='w-5 h-5 rounded-full bg-gray-500' />
+          <div className='w-1 sm:h-80 h-40 bg-gradient-to-b from-gray-500 to-gray-700' />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Otso</span>
+            Hi, I'm <span className='text-gray-300'>Otso</span>
           </h1>
-          <h1 className={`${styles.heroHeadText} text-white`}></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            <p> I specialize in machine learning</p> <p></p> software
-            engineering
-            <p></p>
-            and being a chill guy
+          <p className={`${styles.heroSubText} mt-2 text-gray-300`}>
+            I specialize in
+            <span className='text-gray-300'> Software engineering</span>
+            <br />
+            <span className='text-gray-300'> Machine learning</span> and
+            <span className='text-gray-400'> LLM Solutions</span>
           </p>
         </div>
-      </div>
 
-      <ComputersCanvas />
-
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-        <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: 'loop',
-              }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
-            />
-          </div>
-        </a>
+        <div className='bg-gray-950 w-full h-full rounded-md shadow-lg flex items-end'>
+          <Chat />
+        </div>
       </div>
     </section>
   )

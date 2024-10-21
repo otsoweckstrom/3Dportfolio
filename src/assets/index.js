@@ -21,14 +21,23 @@ import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
 
-import meta from './company/meta.png'
-import shopify from './company/shopify.png'
-import starbucks from './company/starbucks.png'
-import tesla from './company/tesla.png'
+import python from './tech/python.png'
+import pytorch from './tech/pytorch.svg'
+import tensorflow from './tech/tensorflow.png'
+import unity from './tech/unity.png'
+import mysql from './tech/mysql.png'
+import nextjs from './tech/nextjs.png'
+import graphql from './tech/graphql.png'
+import angular from './tech/angular.png'
+import flutter from './tech/flutter.png'
+import kotlin from './tech/kotlin.png'
+import r from './tech/r.png'
 
-import carrent from './carrent.png'
-import jobit from './jobit.png'
-import tripguide from './tripguide.png'
+import lut from './company/lut.png'
+import seoultech from './company/seoultech.png'
+import visma from './company/visma.png'
+import twoday from './company/twoday.png'
+import ajatec from './company/ajatec.png'
 
 export {
   logo,
@@ -52,11 +61,20 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  python,
+  pytorch,
+  r,
+  tensorflow,
+  angular,
+  graphql,
+  flutter,
+  kotlin,
+  unity,
+  mysql,
+  nextjs,
+  lut,
+  seoultech,
+  visma,
+  twoday,
+  ajatec,
 }

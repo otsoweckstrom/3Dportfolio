@@ -15,14 +15,23 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  lut,
+  seoultech,
+  ajatec,
+  twoday,
+  visma,
   threejs,
+  r,
+  pytorch,
+  python,
+  tensorflow,
+  angular,
+  graphql,
+  flutter,
+  kotlin,
+  unity,
+  mysql,
+  nextjs,
 } from '../assets'
 
 export const navLinks = [
@@ -42,19 +51,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Software Developer',
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: 'Technical Consultant',
     icon: mobile,
   },
   {
-    title: 'Backend Developer',
+    title: 'AI Enthusiast',
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Machine Learning Researcher',
     icon: creator,
   },
 ]
@@ -80,10 +89,7 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
+
   {
     name: 'Tailwind CSS',
     icon: tailwind,
@@ -92,79 +98,136 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
-  {
-    name: 'Three JS',
-    icon: threejs,
-  },
+
   {
     name: 'git',
     icon: git,
   },
+
   {
-    name: 'figma',
-    icon: figma,
+    name: 'python',
+    icon: python,
   },
   {
-    name: 'docker',
-    icon: docker,
+    name: 'pytorch',
+    icon: pytorch,
+  },
+  {
+    name: 'R',
+    icon: r,
+  },
+  {
+    name: 'TensorFlow',
+    icon: tensorflow,
+  },
+  /*  
+
+ {
+    name: 'figma',
+    icon: figma,
+  },  {
+    name: 'MongoDB',
+    icon: mongodb,
+  },  {
+    name: 'GraphQL',
+    icon: graphql,
+  },
+  {
+    name: 'Flutter',
+    icon: flutter,
+  },  {
+    name: 'NextJS',
+    icon: nextjs,
+  },
+
+  {
+    name: 'Unity',
+    icon: unity,
+  },*/
+  {
+    name: 'MySQL',
+    icon: mysql,
   },
 ]
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    title: 'Software Engineering Studies',
+    company_name: 'LUT University',
+    icon: lut,
+    iconBg: '#000',
+    date: '2018-2024',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      `Cluster ry - Software Engineers' Guild - Board Member`,
+      `Ruut ry - Student Tech Organization - Board Member`,
+      'Achieving Student Certificate',
+      `Scrum Master Course`,
+      `1st place in Techrace`,
+      `1st place in Visma Consulting Koodausta ja kisailua`,
+      `1st place in Running a Software Project-course`,
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
-    icon: tesla,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    title: 'Junior Developer ',
+    company_name: 'Visma Consulting',
+    icon: visma,
+    iconBg: '#fff',
+    date: '2021-2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Got to work on many interesting projects with clients from all sorts of different industries',
+      `Projects ranged from refactoring an old Kotlin application to planning and implementing full scale web apps`,
+      `Worked mainly in small teams with agile development methodologies`,
+      `Emphasis on frontend development, TypeScript and React but got to use and learn a whole array of technologies`,
+      `Was left to oversee an ongoing project over the summer on my 2nd year which gave me a real headstart to client communications`,
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
-    icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    title: `Bachelor's  Degree in Software Engineering`,
+    company_name: 'LUT University',
+    icon: lut,
+    iconBg: '#000',
+    date: '2021',
+    points: ['"I think I can see light at the end of the tunnel"'],
+  },
+  {
+    title: 'Computer Science Studies',
+    company_name: 'Seoul National University of Technology and Science',
+    icon: seoultech,
+    iconBg: '#fff',
+    date: '2023-2024',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Focused my studies on Artificial Intelligence and Machine Learning',
+      `Met many wonderful and super people that I'm thankful to have gotten to share the time abroad with`,
+      'Dug deep and found my inner academic weapon forged in the flames of the Korean education system',
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
-    icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    title: `Master's Thesis`,
+    company_name: 'Ajatec Oy, Suomen Teknologiateollisuudenliitto, LUT',
+    icon: ajatec,
+    iconBg: '#fff',
+    date: '2024',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      "Thesis' name: Machine Learning in Additive Manufacturing",
+      `Analyzing Ajatec Oy's historical data of CAD models to find profitability indicators`,
+      'The project received a research grant from Suomen Teknologiateollisuudenliitto',
+      ` Python | R | Pytorch | Tensorflow | CAD `,
+    ],
+  },
+  {
+    title: 'Developer',
+    company_name: 'TwoDay',
+    icon: twoday,
+    iconBg: '#fff',
+    date: '2023-Present',
+    points: [
+      `Started work at Twoday Oy after moving to Helsinki, new projects new challenges!`,
+      `Web apps - React, TypeScript, CSS, HTML5`,
+      `Mobile app development - React Native`,
+      `Cloud platforms - AWS, Azure`,
+      `Databases - SQL, NoSQL, GraphQL, MongoDB`,
+      `Backend and API development - JavaScript`,
+      `CDI Pipelines and Version Control`,
     ],
   },
 ]
@@ -215,7 +278,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
+    image: lut,
     source_code_link: 'https://github.com/',
   },
   {
@@ -236,7 +299,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
+    image: lut,
     source_code_link: 'https://github.com/',
   },
   {
@@ -257,7 +320,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
+    image: lut,
     source_code_link: 'https://github.com/',
   },
 ]
